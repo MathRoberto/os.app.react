@@ -12,8 +12,8 @@ const Principal = ()=>{
                 <Cabecalho titulo ='Web OS' /> 
                 <Routes>
                     <Route path = '/' element = {<Home />} />
-                    <Route path = '/' element = {<Login />} />
-                    <Route path = '/' element = {<Ajuda />} />
+                    <Route path = '/login' element = {<Login />} />
+                    <Route path = '/ajuda' element = {<Ajuda />} />
                 </Routes>
             </div>
         </BrowserRouter>
