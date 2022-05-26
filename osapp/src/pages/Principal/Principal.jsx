@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from '../Home/Home'
 import Login from '../Login/Login'
 import Ajuda from '../Ajuda/Ajuda'
+import Rodape from '../../componentes/Rodape/rodape'
 const Principal = ()=>{
 
     return(
@@ -15,7 +16,9 @@ const Principal = ()=>{
                     <Route path = '/login' element = {<Login />} />
                     <Route path = '/ajuda' element = {<Ajuda />} />
                 </Routes>
+                <Rodape nomeRodape = 'Aplicativo OS' />
             </div>
+            
         </BrowserRouter>
     )
 }

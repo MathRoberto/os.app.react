@@ -1,4 +1,3 @@
-import Principal from '../../pages/Principal/Principal'
 import './cabecalho.css'
 
 const Cabecalho = ({titulo})=>{
