@@ -1,6 +1,9 @@
+import { LoginContext } from "../../componentes/AuthContext/AuthContext";
 
 
 const Login = ()=>{
+
+    const { login } = useContext (LoginContext)
 
     return (
 

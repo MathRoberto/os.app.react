@@ -7,6 +7,10 @@ const Rodape = ({nomeRodape})=>{
         <footer className="rodape_header">
 
         {nomeRodape}
+        
+
+        
+
 
         </footer>
 
