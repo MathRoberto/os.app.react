@@ -1,9 +1,9 @@
-import { LoginContext } from "../../componentes/AuthContext/AuthContext";
+// import { LoginContext } from "../../componentes/AuthContext/AuthContext";
 
 
 const Login = ()=>{
 
-    const { login } = useContext (LoginContext)
+    // const { login } = useContext (LoginContext)
 
     return (
 

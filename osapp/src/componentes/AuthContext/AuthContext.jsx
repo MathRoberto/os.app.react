@@ -1,27 +1,27 @@
-export const LoginContext = createContext()
+// export const LoginContext = createContext()
 
-const AuthContext = ({childen, nome})=>{
+// const AuthContext = ({childen, nome})=>{
 
-    const {user, setUser} = useState(null)
+//     const {user, setUser} = useState(null)
 
-    return(
+//     return(
 
-        <LoginContext.Provider value={
-            {'nome': nome ?? 'Zezim da Silva',
-            'autenticado': user != null ,
-            'user': user}
-         }>
+//         <LoginContext.Provider value={
+//             {'nome': nome ?? 'Zezim da Silva',
+//             'autenticado': user != null ,
+//             'user': user}
+//          }>
 
     
-         {Children}
+//          {Children}
          
-         </LoginContext.Provider>
+//          </LoginContext.Provider>
     
 
 
-    )
+//     )
 
 
-}
+// }
 
-Export default AuthContext
+// Export default AuthContext

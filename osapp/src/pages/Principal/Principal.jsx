@@ -7,7 +7,7 @@ import Ajuda from '../Ajuda/Ajuda'
 import Rodape from '../../componentes/Rodape/rodape'
 import Cadastro from '../Cadastro/Cadastro.jsx'
 import Listagem from '../Listagem/Listagem.jsx'
-import AuthContext from '../componentes/AuthContext/AuthContext'
+// import AuthContext from '../componentes/AuthContext/AuthContext'
 
 
 const Principal = ()=>{
