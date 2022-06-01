@@ -6,7 +6,9 @@ const Cabecalho = ({titulo})=>{
         
         <header className="cabecalho_header">
 
+        <div>img</div>
         {titulo}
+        <div>ajuda</div>
 
         </header>
 

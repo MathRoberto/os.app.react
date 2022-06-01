@@ -15,7 +15,7 @@ const Principal = ()=>{
     return(
         <BrowserRouter> 
             <div className="principal_content">
-                <Cabecalho titulo ='Web OS' /> 
+                <Cabecalho titulo ='Web OS::Chamados' /> 
                 <Routes>
                     <Route path = '/' element = {<Home />} />
                     <Route path = '/login' element = {<Login />} />
@@ -24,7 +24,7 @@ const Principal = ()=>{
                     <Route path = '/listagem' element = {<Listagem />} /> 
 
                 </Routes>
-                <Rodape nomeRodape = 'Aplicativo OS' />
+                <Rodape nomeRodape = '' />
             </div>
             
         </BrowserRouter>

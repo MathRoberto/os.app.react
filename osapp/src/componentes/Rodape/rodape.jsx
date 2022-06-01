@@ -9,7 +9,9 @@ const Rodape = ({nomeRodape})=>{
         {nomeRodape}
         
 
-        
+        <div>Botão 1</div>
+        <div>Botão 2</div>
+        <div>Botão 3</div>
 
 
         </footer>
